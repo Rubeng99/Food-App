@@ -1,12 +1,16 @@
-import java.util.*;
-import java.util.Scanner;
-import java.util.Arrays;
-public class Food
-{
-    public static void main(String[] args)
-    {
-        double number = 1;
+
+
+
+    import java.util.*;
+    import java.util.Scanner;
+    import java.util.Arrays;
+       public class Food
+         {
+         public static void main(String[] args)
+            {
         Scanner input = new Scanner(System.in);
+        double number = 1;
+       
 
         System.out.print("Ask me anything: " );
         String sentence = input.nextLine();
@@ -112,4 +116,3 @@ public class Food
         }
 
     }
-    
